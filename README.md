@@ -1,0 +1,2 @@
+# Galeria
+Replicar una pagina 
