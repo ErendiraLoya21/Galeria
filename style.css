@@ -1,18 +1,157 @@
-.contenedor{
-    background-color: hotpink;
-    padding: 5px;
-    border:  1px solid black;
-    margin-left: 50px;
-    margin-right: 50px;
-    display: flex;
-    flex-wrap: wrap;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.box{
-    border: 3px solid black;
-    font-size: 30px;
-    text-align: center;
-    margin: 14px;
+body{
+    font-family: 'Cormorant Garamond', serif;
+    padding: 20px;
+    background-image: url('degradado.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size:200% 200% ;
+    
+}
 
-    width: 180px;
+h1{
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 40px;
+}
+
+.linea{
+    background-color: #000000;
+    height: 2px;
+    width: 100%;
+    display: block;
+}
+
+.info{
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin: 20px 0 
+}
+
+.contenedor{
+    justify-content: space-around;
+    background-color:none;
+    border-radius: 10px;
+    /*border:10px solid black;*/
+    margin: 10px 0;
+}
+
+.icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.icon a {
+    margin: 0 10px;
+}
+
+.icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.contenedor1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: none;
+    border-radius: 10px;
+    padding: 20px;
+    /*border: 10px solid black;*/
+    margin: 20px 0;
+}
+
+.contenedor1 .texto {
+    flex: 1;
+    margin-right: 20px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.contenedor1 .imagen{
+    flex-shrink: 0;
+    max-width: 250px; 
+}
+
+.contenedor1 .imagen img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px; 
+}
+
+.contenedor2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: none;
+    border-radius: 10px;
+    padding: 20px;
+    /*border: 10px solid black;*/
+}
+
+.contenedor2 a {
+    flex: 1 1 calc(33.333% - 20px);
+    margin: 10px;
+    text-align: center;
+}
+
+.contenedor2 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.contenedor4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #dbc5e761;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 20px 0;
+    width: 200px;
+}
+.contenedor4 img{
+    justify-content:center ;
+    background-color:none;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    margin: 20px 0;
+}
+
+.contenedor p{
+    text-align: justify;
+}
+
+footer {
+    background-color: #dbc5e761;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    /*border: 10px solid black;*/
+}
+
+footer a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer p {
+    margin: 10px 0;
 }
